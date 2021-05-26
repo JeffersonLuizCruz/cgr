@@ -3,20 +3,20 @@
 
 #Start do Proejto
 
-´´´
-
-
+```
 
 @Override
 	public void run(String... args) throws Exception {
+	
+			
+		/**
+		 * Atenção: Os objetos abaixo devem ser executado um por vez. 
+		 * */
 		
 		Robo robo = new Robo();
 		Cliente cliente = new Cliente();
 		Gerente gerente = new Gerente();
-		
-		/**
-		 * Atenção: Os objetos abaixo devem ser executado um por vez. 
-		 * */
+
 
 		Nome nome = new Nome(gerente,"Severino de Oliveira Silva", null);
 		//Nome nome = new Nome(robo,"Juliana Pires Silva", null);
@@ -37,4 +37,4 @@
 	
 	
 	
-  ´´´
+```
