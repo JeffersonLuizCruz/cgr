@@ -9,7 +9,7 @@ public class Gerente implements ValidacaoStrategy{
 	private  String gerente = "Severino de Oliveira Silva";
 
 	@Override
-	public String validarPrimeiroNome(String nome) {
+	public String primeiroNome(String nome) {
 		if(gerente!= nome || gerente.trim().length() < nome.length())
 			return String.format("\n Erro de Validação no campo Nome");
 		

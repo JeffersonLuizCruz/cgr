@@ -21,7 +21,7 @@ public class Nome implements Serializable{
 	private String resultNome;
 	
 	public void validarPrimeiroNome() {
-		this.resultNome = validacao.validarPrimeiroNome(nome);
+		this.resultNome = validacao.primeiroNome(nome);
 	}
 	
 	public void validarSobreNome() {

@@ -9,7 +9,7 @@ public class Robo implements ValidacaoStrategy{
 	private  String robo = "Juliana Pires Silva";
 
 	@Override
-	public String validarPrimeiroNome(String nome) {
+	public String primeiroNome(String nome) {
 		if(robo!= nome || robo.trim().length() < nome.length())
 			return String.format("\n Erro de Validação no campo Nome");
 		
@@ -36,8 +36,14 @@ public class Robo implements ValidacaoStrategy{
 
 	@Override
 	public String nomeAbreviado(String nome) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		String[] nomes = robo.split(" ");
+		
+		for (String string : nomes) {
+			System.out.println(string);
+		}
+		
+		return String.format(nomes[0] + " " + nomes[nomes.length-1]);
 	}
 
 

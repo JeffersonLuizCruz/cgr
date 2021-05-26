@@ -12,7 +12,7 @@ public class Cliente implements ValidacaoStrategy{
 	
 
 	@Override
-	public String validarPrimeiroNome(String nome) {
+	public String primeiroNome(String nome) {
 		if(cliente!= nome || cliente.trim().length() < nome.length())
 			return String.format("\n Erro de Validação no campo Nome");
 		
