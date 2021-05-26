@@ -10,7 +10,7 @@
 	
 			
 		/**
-		 * Atenção: Os objetos abaixo devem ser executado um por vez. 
+		 * Atenção: Os objetos abaixo devem ser executados um por vez. 
 		 * */
 		
 		Robo robo = new Robo();
@@ -23,7 +23,7 @@
 		//Nome nome = new Nome(cliente,"Jefferson Luiz Cruz", null);
 		
 		/**
-		 * Atenção: Os métodos abaixo devem ser executado um por vez.
+		 * Atenção: Os métodos abaixo devem ser executados um por vez.
 		 */
 		
 		nome.validarPrimeiroNome(); 
