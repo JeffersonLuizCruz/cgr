@@ -1,7 +1,7 @@
-#Padrão de Projeto Strategy
+# Padrão de Projeto Strategy
 > Nesse projeto foi realizado o padrão Strategy. Com ele conseguimos realizar a mesma operação de diferentes maneiras.
 
-#Start do Proejto
+# Start do Proejto
 
 ```
 
